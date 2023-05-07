@@ -17,3 +17,5 @@ For this assignment, I have implemented Conway's Game of Life algorithm in C lan
 ### Output After SpeedUp using Shell Scripting
 <img width="367" alt="speedNew" src="https://user-images.githubusercontent.com/105592966/236699744-0ec825d0-0b35-4f4a-ba46-9b5d23916343.PNG">
 
+## Graph Plotted
+<img width="431" alt="plotting" src="https://user-images.githubusercontent.com/105592966/236699881-9b443bba-8ac3-4427-89e2-c20e6beee5d7.PNG">
