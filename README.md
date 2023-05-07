@@ -7,11 +7,13 @@ For this assignment, I have implemented Conway's Game of Life algorithm in C lan
 
 ## Screenshots Of Output
 ### Program Output
-<img width="626" alt="pic1" src="https://user-images.githubusercontent.com/105592966/236698134-972e7f5a-8c7f-4206-bff3-91edcb3ae059.PNG">
+<img width="354" alt="newAss3" src="https://user-images.githubusercontent.com/105592966/236699731-63392105-6c99-4036-a9d0-68ac3cba057a.PNG">
 
 
 ### Time Command Output
-<img width="516" alt="time" src="https://user-images.githubusercontent.com/105592966/236698151-cd616acd-0c9f-448d-af05-0f950967d0a9.PNG">
+<img width="284" alt="newTime" src="https://user-images.githubusercontent.com/105592966/236699737-daaefbeb-b074-433e-9ef3-13411ed277db.PNG">
+
 
 ### Output After SpeedUp using Shell Scripting
-<img width="608" alt="sp" src="https://user-images.githubusercontent.com/105592966/236698234-363e7b9b-d4da-4746-8c89-ebd0092dda03.PNG">
+<img width="367" alt="speedNew" src="https://user-images.githubusercontent.com/105592966/236699744-0ec825d0-0b35-4f4a-ba46-9b5d23916343.PNG">
+
