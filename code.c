@@ -7,7 +7,7 @@ int** grid;
 int** new_grid;
 pthread_mutex_t mutex;
 
-// Initialize the grid with zeros
+
 void init_grid() {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
@@ -16,7 +16,7 @@ void init_grid() {
     }
 }
 
-// Print the grid
+
 void print_grid(int** grid) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
@@ -27,7 +27,7 @@ void print_grid(int** grid) {
     printf("\n");
 }
 
-// Count the number of live neighbors around a cell
+
 int count_neighbors(int row, int col) {
     int count = 0;
     for (int i = row - 1; i <= row + 1; i++) {
@@ -40,7 +40,7 @@ int count_neighbors(int row, int col) {
     return count;
 }
 
-// Update the grid for the next generation
+
 void* update_row(void* arg) {
     
     int row = *((int*) arg);
@@ -91,24 +91,24 @@ int main() {
         for (int j = 0; j < rows; j++) {
 pthread_create(&threads[j], NULL, update_row, &tid[j]);
 }
-    // Wait for all threads to finish
+
     for (int j = 0; j < rows; j++) {
         pthread_join(threads[j], NULL);
     }
     
-    // Copy new grid to old grid
+
     for (int j = 0; j < rows; j++) {
         for (int k = 0; k < cols; k++) {
             grid[j][k] = new_grid[j][k];
         }
     }
     
-    // Print the updated grid
+
     printf("Generation %d:\n", i + 1);
     print_grid(grid);
 }
 
-// Destroy the mutex
+
 pthread_mutex_destroy(&mutex);
 free(grid);
 free(new_grid);
