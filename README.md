@@ -3,7 +3,7 @@
 ## RollNo - 21k-3096
 
 ## Overview
-For this assignment, I have implemented Conway's Game of Life algorithm in C language using a two-dimensional array to represent the grid of cells. The rules of the game were implemented using conditional statements. To run the algorithm concurrently, I created multiple POSIX threads to process different regions of the grid independently. I used mutexes and condition variables to synchronize access to the shared data structures such as the grid of cells. Finally, I used shell scripting to measure the speedup achieved by running the final application with various numbers of threads. The time command was used to measure the execution time of the program.
+For this assignment, I have implemented Conway's Game of Life algorithm in C language using a two-dimensional array to represent the grid of cells. The rules of the game were implemented using conditional statements. To run the algorithm concurrently, I created multiple POSIX threads to process different regions of the grid independently. I used mutexes and condition variables to synchronize access to the shared data structures such as the grid of cells. Finally, I used shell scripting to measure the speedup achieved by running the final application with various numbers of threads. The time command was used to measure the execution time of the program and I have plot a graph using matplotlib in python to show the speed up using different number of threads.
 
 ## Screenshots
 ### Program Output
